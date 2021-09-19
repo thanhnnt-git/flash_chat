@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "20897383458",
+    "project_id": "flashchat-22255",
+    "storage_bucket": "flashchat-22255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20897383458:android:c183a8189bf51842fe367b",
+        "android_client_info": {
+          "package_name": "co.thanh.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20897383458-b92kio5marsfalog077uar6qsi81tpgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyActjxbXTEFbAz25-s_dLjyIE9JabNIZMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20897383458-b92kio5marsfalog077uar6qsi81tpgi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "20897383458-fclfgn8fe1c3l8qjtcr4du56891ns92n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.thanh.Flash-Chat-iOS13"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
