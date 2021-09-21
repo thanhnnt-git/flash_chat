@@ -26,7 +26,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     controller.forward();
     controller.addListener(() {
       setState(() {
-        print(animation.value);
+        // print(animation.value);
       });
     });
   }
@@ -61,6 +61,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       ),
                     )
                   ],
+                  // repeatForever: true,
                 ),
               ],
             ),
@@ -70,12 +71,16 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             RoundedButton(
               colour: Colors.lightBlueAccent,
               label: 'Log In',
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, LoginScreen.id);
+              },
             ),
             RoundedButton(
               colour: Colors.blueAccent,
               label: 'Register',
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, RegistrationScreen.id);
+              },
             )
           ],
         ),
